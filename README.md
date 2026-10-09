@@ -7,16 +7,16 @@ Designed to make security monitoring and threat analysis more accessible to smal
 ## 📸 Dashboard Preview
 
 ### 1. Main Dashboard
-![SOC Dashboard Overview](screenshots/soc-dashboard.png)
+![SOC Dashboard Overview](socdashboard/screenshots/soc-dashboard.png)
 
 ### 2. Security Log Analysis
-![Security Log Analysis](screenshots/soc.png)
+![Security Log Analysis](socdashboard/screenshots/soc.png)
 
 ### 3. Indicators of Compromise (IOCs)
-![IOC Analysis](screenshots/iocs.png)
+![IOC Analysis](socdashboard/screenshots/iocs.png)
 
 ### 4. MITRE ATT&CK Mapping
-![MITRE ATT&CK Mapping](screenshots/mitre.png)
+![MITRE ATT&CK Mapping](socdashboard/screenshots/mitre.png)
 
 ## ✨ Key Features
 
