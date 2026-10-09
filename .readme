@@ -1,0 +1,73 @@
+# Log Copilot — Streamlit SOC Analyst Dashboard
+
+A dark SOC dashboard for **100% local/client-side security log analysis**.
+
+## Supported uploads
+
+- `.json`
+- `.txt`
+- `.csv`
+- `.tsv`
+- `.log`
+
+## Supported security telemetry
+
+### Zeek
+Network monitoring logs such as:
+- DNS
+- HTTP
+- connection/network telemetry
+
+### Sysmon
+Windows endpoint telemetry such as:
+- Process creation
+- Network connections
+- Command execution indicators
+
+### Windows Events
+Standard Windows event logs, including common Security event IDs such as:
+- 4624 / 4625 authentication events
+- 4688 process creation
+- 1102 security log clearing indicators
+
+### AWS CloudTrail
+Cloud API/service events, including:
+- IAM/authentication activity
+- CloudTrail/logging control changes
+- S3/object access indicators
+
+## Dashboard tabs
+
+### 1. Analysis
+- Total logs
+- Anomaly count
+- IOC count
+- MITRE technique count
+- Source coverage
+- Anomaly timeline
+- Event/source distribution
+- Threat-level distribution
+- Event explorer
+
+### 2. IOCs
+Extracts:
+- IPv4 addresses
+- Domains
+- URLs
+- MD5 / SHA1 / SHA256
+- Email addresses
+
+### 3. MITRE ATT&CK
+- Technique mappings
+- Tactic distribution
+- Detection counts
+- Coverage against the app's configured local technique catalog
+- Technique detail cards
+
+## Run
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py

@@ -1,0 +1,14 @@
+
+# Format: timestamp  elapsed_ms  client  action/status  bytes  method  uri  user  hier/peer  content_type
+# Squid proxy access log — lab5 window — 2026-04-14 UTC
+1776154004.000    280  10.10.1.50  TCP_MISS/200  8412  GET  http://www.google.com/  -  DIRECT/142.250.80.46  text/html
+1776154004.000    312  10.10.1.80  TCP_MISS/200  8420  GET  http://www.google.com/  -  DIRECT/142.250.80.46  text/html
+1776154019.000    195  10.10.1.80  TCP_MISS/200  1240  GET  http://example.com/index.html  -  DIRECT/93.184.216.34  text/html
+1776154184.000    280  10.10.1.80  TCP_MISS/200  3100  GET  http://www.google.com/favicon.ico  -  DIRECT/142.250.80.46  image/png
+1776154259.000    195  10.10.1.80  TCP_MISS/200  1240  GET  http://example.com/index.html  -  DIRECT/93.184.216.34  text/html
+1776154499.000    195  10.10.1.80  TCP_MISS/200  1240  GET  http://example.com/index.html  -  DIRECT/93.184.216.34  text/html
+1776154725.000      8  10.10.1.50  TCP_MISS/200  192  GET  http://185.220.101.88:4444/beacon/check-in  -  DIRECT/185.220.101.88  text/plain
+1776154784.999     11  10.10.1.50  TCP_MISS/200  205  GET  http://185.220.101.88:4444/beacon/check-in  -  DIRECT/185.220.101.88  text/plain
+1776154845.000     11  10.10.1.50  TCP_MISS/200  207  GET  http://185.220.101.88:4444/beacon/check-in  -  DIRECT/185.220.101.88  text/plain
+1776154905.000     11  10.10.1.50  TCP_MISS/200  196  GET  http://185.220.101.88:4444/beacon/check-in  -  DIRECT/185.220.101.88  text/plain
+1776155083.000   1240  10.10.1.50  TCP_MISS/200  2621440  POST  http://185.220.101.88:4444/submit.php  -  DIRECT/185.220.101.88  application/octet-stream
