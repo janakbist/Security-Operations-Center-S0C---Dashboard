@@ -114,7 +114,7 @@ AI-generated findings should be reviewed by a security analyst before taking act
 
 ## 👨‍💻 Authors
 
-**Janak Bist** , **Omar Aouled** **Bhanu Teja Konduru**
+**Janak Bist** , **Omar Aouled** , **Bhanu Teja Konduru**
 
 Developed as an academic cybersecurity project.
 
